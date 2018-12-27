@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "./node_modules/.bin/parcel build index.html --public-url /static/",
+    "clean": "rm ./dist/*"
+  },
+  "dependencies": {
+    "babel-polyfill": "=6.26.0",
+    "element-ui": "=2.4.11",
+    "vue": "=2.5.21"
+  },
+  "devDependencies": {
+    "parcel-bundler": "=1.11.0"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
